@@ -7,3 +7,17 @@
 .section-description {
   margin-bottom: 1.2rem;
 }
+
+/*This is to display columns properly---------*/
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*This is to fix the overflows-----*/
+.reading-area {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
