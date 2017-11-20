@@ -30,7 +30,7 @@
 
 /*Background colour*/
 body {
-  background-color:purple
+  background-color:medium purple
 }
 
 h1 {
@@ -46,6 +46,6 @@ h3 {
 }
 
 p {
-  color: azure;
+  color: #f0ffff;
 }
 
