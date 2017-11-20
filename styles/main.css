@@ -22,6 +22,20 @@
   overflow: auto;
 }
 
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*div{
+  width: ;
+  height: ;
+  boder: ;
+  margin: ;
+}
+
+
 /*Mobile First Queries-----*/
 
 /*Larger than mobile----*/
