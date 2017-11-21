@@ -29,7 +29,8 @@
 }
 
 /*Background colour*/
-body {
+
+.body {
   background-color: purple;
 }
 
