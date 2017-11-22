@@ -28,12 +28,8 @@
 @media (min-width: 400px) { 
 }
 
-//Background colour
-
-/*body { background-color: purple;*/
-
-html {
-  background-color: medium purple;
+body { 
+  background-color: medium-purple;
 }
 
 h1 {
