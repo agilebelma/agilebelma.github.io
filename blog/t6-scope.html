@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+
+    <link rel="stylesheet" type="text/css" href="../styles/main.css">
+
+    <title> Kia Ora a marama!</title>
+    <meta charset="UTF-8">
+  </head>
+
+<body>
+
+<a href="../index.html">Main Page</a>
+
+<h4> What is 'scope' and how does it work in JavaScript?</h4>
+
+  <p> Ok, here's my interpretation. But first, a declaration (pun intended). I have googled the term, watched videos, read articles, scanned Stack Overflow but this blog post is purely my own definition. So apologies for misleading you. </p>
+
+    <h5>There are two types of scope in JavaScript</h5>
+
+      <h6> Global Scope</h6>
+      <p>When you create but do not declare a variable, your code will be read and 'executed' at top level, throughout the whole programme.</p>
+      <p>JavaScript 'thingy' will read and execute your code as a blanket rule, applying the same variable throughout your programme. YOur variable will be same value every where on your programme (the Window level).</p>
+
+      <h6> Local Scope</h6>
+      <p> When you create and declare (assign value) a variable within a function, or a method, then the JavaScript 'thingy' will look for and execute it at that level (the Document level).</p>
+
+      <p>DOcument belongs to the Window</p>
+
+      <p>In other words:</p>
+      <ul>
+        <li>Declare your variables as you create them</li>
+        <li>If not feasible, then create them at function level</li>
+        <li>Local scope will be applicable to the function that is created, in a container of its own (nothing else can read that variable other than the function it is created in)</li>
+        <li>Global scope over-rides local scope</li>
+      </ul>
+
+      <p> I have no idea what I'm talking about, right?</p>
+      
+
