@@ -29,11 +29,11 @@
 }
 
 body { 
-  background-color:mediumpurple;
+  background-color:rgb(181, 158, 228);
 }
 
 h1 {
-  color:coral;
+  color:rgb(8, 7, 71);
 }
 
 h2 {
@@ -41,7 +41,7 @@ h2 {
 }
 
 h3 {
-  color:coral;
+  color:rgb(192, 180, 176);
 }
 
 p {
