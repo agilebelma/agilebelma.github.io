@@ -58,9 +58,10 @@ img {
 
 .scenery { 
   display:block;
-  margin: 100px 0 50px 0;
+  margin:40px auto;
   padding: 0;
 }
+
 /* Links */
 a {
   background: transparent;
@@ -69,6 +70,6 @@ a {
   float: left;
   margin: 0;
   outline: 0;
-  padding: 0;
+  padding: 10px;
   width: 33%; 
 }
